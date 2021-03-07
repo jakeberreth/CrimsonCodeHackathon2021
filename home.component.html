@@ -1,0 +1,10 @@
+<h1>Create a new post</h1>
+<hr>
+<div class="title">
+  <textarea [value]="postTitle" #titleInput id="title" placeholder="Title your post" cols="30" rows="1"></textarea>
+</div>
+<div class="content">
+  <textarea [value]="postContent" #contentInput id="content" placeholder="Write post here . . ." cols="30" rows="10"></textarea>
+</div>
+<button (click)="createNewPost(titleInput, contentInput)" class="save">Save Post</button>
+

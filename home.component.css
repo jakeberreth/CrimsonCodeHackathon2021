@@ -1,0 +1,27 @@
+.title {
+  position: absolute;
+  border: 5px solid rgb(36, 102, 224);
+}
+
+.content {
+  top: 50px;
+  left: 0;
+  position: relative;
+  border: 5px solid  rgb(36, 102, 224);
+  width: 256px;
+}
+
+.save {
+  top: 55px;
+  left: 0;
+  position: relative;
+  border: 5px solid rgb(36, 102, 224);
+  width: 265px;
+  background-color: black;
+  color: white
+}
+
+.save:hover {
+  background-color: lightgreen;
+  color: black;
+}

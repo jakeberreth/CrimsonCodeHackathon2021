@@ -1,0 +1,38 @@
+.nav-bar {
+  background-color: #F7931E;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav-bar a {
+  color: black;
+  text-align: justify;
+  font-family: 'Verdana';
+  font-size: 18px;
+  padding: 10px 0px 25px 16px;
+  float: right;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+
+a:active {
+  color: black;
+}
+
+#nav .name {
+  float: left;
+  margin-top: 0px;
+  pointer-events: none;
+  font-size: 40px;
+  color: white;
+  text-shadow:
+  -2px -2px 0 black,
+  2px -2px 0 black,
+  -1.7px 1.7px 0 black,
+  1.5px 1.5px 0 black;
+}
